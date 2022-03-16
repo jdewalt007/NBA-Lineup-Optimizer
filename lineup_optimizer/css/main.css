@@ -1,0 +1,131 @@
+*{
+	font-family: Calibri;	
+}
+
+body {padding-bottom: 70px;}
+
+.container{
+	min-width:1005px;
+}
+
+#dialogoverlay{
+	display: none;
+	opacity: .8;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: #FFF;
+	width: 100%;
+	z-index: 10;
+}
+#dialogbox{
+	display: none;
+	position: fixed;
+	background: #000;
+	border-radius:7px; 
+	width:550px;
+	z-index: 10;
+}
+
+#dialogbox > div{ background:#FFF; margin:8px; }
+#dialogbox > div > #dialogboxhead{ background: #666; font-size:19px; padding:10px; color:#CCC; }
+#dialogbox > div > #dialogboxbody{ background:#333; padding:20px; color:#FFF; }
+#dialogbox > div > #dialogboxfoot{ background: #666; padding:10px; text-align:right; }
+
+
+input.form-control {
+	width: 50%  !important;
+	height: 30px;
+}
+
+.nav-item a {
+	background-color: lightblue;
+}
+
+
+table > thead {
+	background-color:lightgray;
+}
+
+
+
+table.table-bordered {
+    border:1px solid darkblue;
+    margin-top:20px;
+}
+  
+table.table-bordered > thead > tr > th {	
+    border:1px solid black;
+}
+
+table.table-bordered > tbody > tr > td {	
+    border:1px solid black;
+}
+
+
+.nav-item a:hover {
+	background-color: rgb(74,169, 200);
+}
+
+
+
+
+.select-contest a {	
+	color: green;
+	font-weight: normal;
+	text-decoration:none;	
+}
+
+.select-contest a:hover {	
+	font-weight: bold;	
+}
+
+
+.row-bottom-border {
+	
+	border-bottom: 4px solid orange;	
+}
+
+
+
+
+.rt-border {
+	border-right: 1px solid lightgray !important;
+}
+
+.rt-border-2 {
+	border-right: 1px solid gray !important;
+}
+
+
+
+#search-icon {	
+	border-bottom: 1px solid rgb(182,180,182); 
+	border-top: 1px solid rgb(182,180,182); 
+	border-left: 1px solid rgb(182,180,182); 
+}
+
+
+.java_table_row {
+	 white-space: nowrap;
+	 font-size: 4;
+	 background-color:white;
+	 height:20px;	
+}
+
+
+input:focus { 
+    outline: none !important;	
+}
+
+
+
+.gray-btn {
+	background-color: lightgray;
+	color:black;
+}
+
+
+
+
+	
